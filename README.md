@@ -1,7 +1,7 @@
 # tah
+- parquet 파일의 정보를 cli 기반으로 조회
 
 ### 사용법
-
 ```
 $ my-history -s ls
 ls 사용 횟수는 1234회 입니다.
@@ -19,3 +19,17 @@ mkdir 1932
   pdm 1220
    rm 1104
 ```
+
+### Dev env setting
+```
+$ git clone <URL>
+$ cd <PJT_NAME>
+$ pdm install
+$ [pdm test|pytest]
+
+# Option
+$ pdm add -dG test pytest pytest-cov
+```
+
+### Ref
+- https://pdm-project.org/en/latest/usage/dependency/#add-development-only-dependencies
