@@ -45,6 +45,17 @@ $ pip install git+https://github.com/DONGUK777/tah.git@0.2.0/args
 pip install git+https://github.com/DONGUK777/tah.git@main
 ```
 
+### pytest
+```
+========================================================================== test session starts ===========================================================================
+platform linux -- Python 3.11.8, pytest-8.3.1, pluggy-1.5.0
+rootdir: /home/tommy/code/tah
+configfile: pyproject.toml
+plugins: cov-5.0.0
+collected 0 items
+
+========================================================================= no tests ran in 0.01s =========================================================================
+```
 
 ### Ref
 - https://pdm-project.org/en/latest/usage/dependency/#add-development-only-dependencies
