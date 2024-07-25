@@ -33,7 +33,11 @@ $ pdm install
 $ [pdm test|pytest]
 
 # Option
+$ pdm init
+$ pdm venv create
+$ source .venv/bin/activate
 $ pdm add -dG test pytest pytest-cov
+$ pytest
 ```
 
 ### deploy
