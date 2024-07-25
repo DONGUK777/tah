@@ -19,3 +19,8 @@ test = [
     "pytest>=8.3.1",
     "pytest-cov>=5.0.0",
 ]
+
+[projects.urls]
+Homepage="https://github.com/DONGUK777/tah.git"
+Issues="https://github.com/DONGUK777/tah/issues"
+
