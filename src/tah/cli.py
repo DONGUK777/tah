@@ -21,10 +21,16 @@ def cmd():
 
     if args.scount:
         print(f"-s => {args.scount}")
+        # todo 명령어 카운트
     elif args.top:    
         print(f"-t => {args.top}")
         if args.dt:
             print(f"-d => {args.dt}")
+            # todo 특정 날짜의 명령어 top n개 출력
         else:
-            print("todo ")
-        
+            print("todo-에러나 안내 메시지 주기 ")
+    else:
+        # todo - (scount랑 top도 없어서 안내 메시지를 준다 -> 사용법을 알려준다.)
+        parser.print_help()
+
+    
