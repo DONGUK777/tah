@@ -21,7 +21,7 @@ test = [
 ]
 
 [project.scripts]
-my-history = 'tah.cli:cmd'
+my-history = "tah.cli:cmd"
 
 [projects.urls]
 Homepage="https://github.com/DONGUK777/tah.git"
