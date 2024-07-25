@@ -30,6 +30,7 @@ def cmd():
         else:
             print("todo-에러나 안내 메시지 주기")
             parser.print_help()
+            parser.error("-t 옵션은 -d 옵션과 함께 사용해야 합니다.")
     else:
         # todo - (scount랑 top도 없어서 안내 메시지를 준다 -> 사용법을 알려준다.)
         parser.print_help()
