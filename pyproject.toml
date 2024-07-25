@@ -29,6 +29,7 @@ pythonpath = [
 test = "pytest"
 ctest = "pytest --cov"
 stest = "pytest -s"
+giti = "pip install git+https://github.com/DONGUK777/tah.git@0.2.0/args"
 
 [project.scripts]
 my-history = "tah.cli:cmd"
